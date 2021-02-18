@@ -1,0 +1,25 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A cool thing made with Glitch" />
+  <link rel="stylesheet" href="/style.css" />
+  <script src="/script.js" defer></script>
+  <body>
+    <center>
+      <form>
+        <label for="Youtube">Paste Youtube Link Below</label>
+        <input type="text" id="Youtube" name="link" />
+        <button name="data" type="button" onclick="get()">🔍</button>
+        <select name="Format" id="Format">
+          <option value=".mp3">Audio</option>
+          <option value=".mp4">Video</option>
+        </select>
+      </form>
+    </center>
+    <div id="video"></div>
+  </body>
+</html>
