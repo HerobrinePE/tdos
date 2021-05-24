@@ -12,9 +12,11 @@
   "dependencies": {
     "express": "^4.17.1",
     "ytdl": "^1.4.1",
-    "ytdl-core": "^4.4.4",
+    "ytdl-core": "^4.8.0",
     "fs-extra": "^9.0.1",
-    "fs": "^0.0.2"
+    "fs": "^0.0.2",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.3.0"
   },
   "engines": {
     "node": "12.x"
